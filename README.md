@@ -1,11 +1,11 @@
-# ALGORITHMIQUE AVANCEE ET GRAPHES Création d'un graphe de réseau routier réel à partir de fichiers CSV
+# ALGORITHMIQUE AVANCEE ET GRAPHES Création d'un graphe de réseau routier réel à partir de fichiers CSV.
 
-Contexte & Objectif : 
+# Contexte & Objectif : 
 
 Projet individuel (L1 / L2, AMS Algorithmique Avancée et Graphes). Modélisation du réseau routier réel d'Avignon et algorithmes de recherche d'itinéraire. 
 
 
-Détails Techniques & Concepts Clés :
+# Détails Techniques & Concepts Clés :
 
 • Structures de données graphes : Liste d'adjacence / Matrice d'incidence. Choix de structures de recherche rapide (Tables de hachage / Arbres binaires) pour les nœuds et les arcs.
 
@@ -14,7 +14,7 @@ Détails Techniques & Concepts Clés :
 • Algorithmes de parcours : DFS (Profondeur) pour l'accessibilité, BFS (Largeur) pour le plus court chemin (en nombre d'arcs). 
 
 
-Cheminement de réalisation (Synopsis) :
+# Cheminement de réalisation (Synopsis) :
 
 1. Conception des Classes : Création des classes Noeud (id, lat, lon, street_count) et Arc (osmid, oneway, maxspeed, length, geometry).
 
